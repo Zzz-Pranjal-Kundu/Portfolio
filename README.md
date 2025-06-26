@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://github.com/tjklint/tjklint.github.io/blob/main/src/assets/portfoliodemo.gif" alt="Portfolio Demo">
-</div>
-
 <h3 align="center">
   A fully-custom, responsive, and modern ReactTS portfolio
 </h3>
