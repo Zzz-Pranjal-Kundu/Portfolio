@@ -1,0 +1,273 @@
+.resume-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center the content horizontally */
+  color: #fff; /* White text color */
+  width: 80%; /* Set container width to 80% */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0; /* Remove padding */
+  font-family: 'RobotoMono', sans-serif; /* Use the RobotoMono font */
+
+  .resume-title {
+    font-size: 2.5em; /* Large font size for the title */
+    text-align: left; /* Align the title text to the left */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Full width for the title */
+  }
+
+  .content-wrapper {
+    width: 100%; /* Full width for content wrapper */
+    display: flex;
+    flex-direction: column; /* Stack items vertically by default */
+
+    @media (min-width: 1025px) {
+      flex-direction: row; /* Switch to a row layout on larger screens */
+      justify-content: center; /* Center content horizontally */
+    }
+  }
+}
+
+.timeline-line-container {
+  position: relative;
+  width: 100%;
+  margin: 3rem 0;
+  padding: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #d3d3d3;
+    transform: translateX(-50%);
+  }
+}
+
+// .timeline-item {
+//   width: 50%;
+//   position: relative;
+
+//   &.left {
+//     left: 0;
+//     padding-right: 2rem;
+//     text-align: right;
+//   }
+
+//   &.right {
+//     left: 50%;
+//     padding-left: 2rem;
+//     text-align: left;
+//   }
+
+//   .job-container {
+//     padding: 1rem 2rem;
+//     position: relative;
+
+//     &::before {
+//       content: '';
+//       position: absolute;
+//       top: 1.2em;
+//       width: 12px;
+//       height: 12px;
+//       background: #8a2be2;
+//       border-radius: 50%;
+//       z-index: 1;
+//     }
+
+//     // Position bullet dot correctly based on side
+//     .timeline-item.left &::before {
+//       right: -6px;
+//     }
+
+//     .timeline-item.right &::before {
+//       left: -6px;
+//     }
+//   }
+// }
+
+.timeline-item {
+  width: 55%;
+  position: relative;
+  z-index: 1;
+
+  &.left {
+    left: -8%;
+    padding-right: 2rem;
+    text-align: right;
+  }
+
+  &.right {
+    left: 50%;
+    padding-left: 2rem;
+    text-align: left;
+  }
+
+  .job-container {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem 2rem;
+    margin-bottom: 40px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 1.2em;
+      width: 14px;
+      height: 14px;
+      background: #8a2be2;
+      border: 3px solid #1e1e1e;
+      border-radius: 50%;
+      z-index: 2;
+    }
+
+    // Dot positioning
+    .timeline-item.left &::before {
+      right: -10px;
+    }
+
+    .timeline-item.right &::before {
+      left: -10px;
+    }
+  }
+}
+
+
+.left-column {
+  flex: 1; /* Allow the left column to take up equal space */
+  margin-bottom: 20px; /* Space below the left column */
+
+  @media (max-width: 1024px) {
+    margin-right: 0; /* Remove right margin on smaller screens */
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+.right-column {
+  flex: 1; /* Allow the right column to take up equal space */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 100%; /* Full width for the right column */
+
+  iframe {
+    width: 100%; /* Full width iframe for embedding content */
+    height: 115vh; /* Set iframe height */
+    border: none; /* Remove the iframe border */
+
+    @media (max-width: 1200px) {
+      height: 60vh; /* Reduce iframe height on smaller screens */
+    }
+  }
+}
+
+.section-container {
+  position: relative; /* Position relative for the section */
+}
+
+
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;           
+  width: 100%;
+  color: #8a2be2;               // optional: highlight titles
+  font-family: 'RobotoMono', monospace;
+  border-bottom: 2px solid #8a2be2; // optional: underline style
+  padding-bottom: 10px;
+}
+
+.line-container {
+  position: relative; /* Relative positioning for the line indicator */
+
+  &:before {
+    content: ""; /* Create a vertical line */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Set the line width */
+    background: #d3d3d3; /* Light gray color for the line */
+  }
+}
+
+.job-container {
+  margin-bottom: 20px; /* Space below each job section */
+  padding-left: 40px; /* Space on the left to align content */
+  position: relative; /* Relative positioning for the job container */
+
+  &:before {
+    content: ""; /* Create a horizontal line for job sections */
+    position: absolute;
+    top: 1em;
+    left: 0;
+    width: 20px; /* Set width of the horizontal line */
+    height: 2px; /* Set height of the line */
+    background: #d3d3d3; /* Light gray color for the line */
+  }
+}
+
+.job-title {
+  font-size: 1.5em; /* Font size for job titles */
+  margin: 10px 0; /* Space above and below the job title */
+  position: relative; /* Relative positioning for future positioning */
+}
+
+.company {
+  color: #8a2be2; /* Purple color for company names */
+}
+
+.job-dates {
+  font-size: 1em; /* Font size for job dates */
+  color: #d3d3d3; /* Light gray color for job dates */
+  margin: 5px 0 10px 0; /* Spacing around job dates */
+}
+
+.bullet-point {
+  list-style-type: none; /* Remove default list style */
+  position: relative; /* Relative positioning for bullet points */
+  padding-left: 20px; /* Space on the left for the bullet points */
+  font-size: 1em; /* Font size for the bullet points */
+
+  &:before {
+    content: ">"; /* Arrow symbol for bullet points */
+    position: absolute;
+    left: 0; /* Align bullet point to the left */
+    color: #8a2be2; /* Purple color for bullet point arrows */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .timeline-line-container::before {
+    left: 8px;
+    transform: none;
+  }
+
+  .timeline-item {
+    width: 100% !important;
+    left: 0 !important;
+    text-align: left !important;
+    padding-left: 2rem !important;
+    padding-right: 0 !important;
+
+    .job-container {
+      padding-left: 2rem;
+      padding-right: 0;
+    }
+
+    .job-container::before {
+      left: -12px !important;
+      right: auto !important;
+    }
+  }
+
+  .section-title {
+    font-size: 2em;
+    text-align: center;
+  }
+}

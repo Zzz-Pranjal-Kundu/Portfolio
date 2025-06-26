@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "title": "Education",
+      "entries": [
+        {
+          "title": "B.Tech in Computer Science (GPA: 9.43)",
+          "company": "@Graphic Era Hill University, Dehradun",
+          "dates": "October 2022 - Present",
+          "bulletPoints": [
+            "Currently in the third year of undergraduate studies with a strong focus on software development, AI/ML, and system design.",
+            "Engaged in hands-on projects involving real-time applications, full-stack development, and research-based learning.",
+            "Actively involved in technical communities, hackathons, and academic showcases."
+          ]
+        },
+        {
+          "title": "Class 12th – CBSE (97.4%)",
+          "company": "@Grace Academy, Dehradun",
+          "dates": "2022",
+          "bulletPoints": [
+            "Studied core subjects including Physics, Chemistry, Mathematics, and Computer Science.",
+            "Graduated with distinction, maintaining academic excellence throughout the year.",
+            "Actively participated in coding competitions and school-level technical events."
+          ]
+        },
+        {
+          "title": "Class 10th – CBSE (96.6%)",
+          "company": "@Grace Academy, Dehradun",
+          "dates": "2020",
+          "bulletPoints": [
+            "Strong foundation in Science and Mathematics along with introductory programming.",
+            "Excelled in academics and extracurriculars, earning top scores in school examinations.",
+            "Demonstrated early interest in computer science and technology."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "entries": [
+        {
+          "title": "Data Analytics & AI Trainee",
+          "company": "@PwC Launchpad 3.0 Program",
+          "dates": "February 2025 - Present",
+          "bulletPoints": [
+            "Undergoing training in data analytics, AI/ML fundamentals, and real-world problem-solving.",
+            "Hands-on with data pipelines, model development, and business-oriented analytics.",
+            "Collaborating with industry mentors and peers to build scalable, ethical tech solutions."
+          ]
+        }
+      ]
+    }
+  ]
+}
