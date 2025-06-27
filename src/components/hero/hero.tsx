@@ -154,13 +154,15 @@ const Hero: React.FC = () => {
   ]; // Array of possible headline texts
 
   const typewriterTexts = [
-    "Software Developer",
-    "Ex-SDE Intern @ Bell",
-    "Co-Chair @ CUSEC",
+    "Aspiring Software Developer", 
     "Ethical Hacker",
-    "AI Enthusiast",
+    "AI & Ml Enthusiast",
     "Coffee Drinker",
-    "Hackathon Fanatic"
+    "Hackathon Fanatic", 
+    "Avid Learner",
+    "Turning Ideas into Code", 
+    "Innovator", 
+    "Tech for Good"
   ]; // Array of texts for the typewriter effect
 
   useEffect(() => {
