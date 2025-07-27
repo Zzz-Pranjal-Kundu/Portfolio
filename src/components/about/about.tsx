@@ -24,7 +24,7 @@ const About: React.FC = () => {
             Hi! I’m <span className="purple-text">Pranjal Kundu</span>, a passionate developer currently pursuing my 
             <span className="purple-text"> B.Tech in Computer Science </span> at 
             <span className="purple-text"> Graphic Era Hill University, Dehradun</span>, now in my 
-            <span className="purple-text"> third year</span>.
+            <span className="purple-text"> Final Year</span>.
           </p>
           <p>
             I’ve built impactful projects like 
