@@ -256,10 +256,10 @@ const Projects: React.FC = () => {
           <h3>Portfolio</h3>
           <p>Built in React, this portfolio website is built to last and showcase my best work and skills. Thanks for checking it out!</p>
           <div className="links">
-            <a href="https://github.com/tjklint/tjklint.github.io" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Zzz-Pranjal-Kundu/Portfolio" target="_blank" rel="noopener noreferrer">
               <FaGithub /> See on GitHub
             </a>
-            <a href="https://tjklint.github.io" onClick={handleComingSoonClick}>
+            <a href="https://zzzpranjalkunduzzz.vercel.app/" onClick={handleComingSoonClick}>
               <FaGlobe /> You're already here!
             </a>
           </div>
