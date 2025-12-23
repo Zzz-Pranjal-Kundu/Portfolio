@@ -4,7 +4,7 @@
       "title": "Education",
       "entries": [
         {
-          "title": "B.Tech in Computer Science (GPA: 9.43)",
+          "title": "B.Tech in Computer Science (GPA: 9.33)",
           "company": "@Graphic Era Hill University, Dehradun",
           "dates": "October 2022 - Present",
           "bulletPoints": [
@@ -39,13 +39,26 @@
       "title": "Experience",
       "entries": [
         {
+          "title": "Metee - ML Summer School 2025",
+          "company": "@Amazon",
+          "dates": "August 2025",
+          "bulletPoints": [
+            "Selected for Amazon’s competitive ML Summer School program focused on core and advanced machine learning concepts.",
+            "Gained strong foundations in supervised and unsupervised learning, deep neural networks, and dimensionality reduction.",
+            "Learned sequential learning, reinforcement learning, and causal inference with real-world ML perspectives.",
+            "Explored Generative AI and Large Language Models (LLMs), including modern architectures and applications.",
+            "Engaged in interactive Q&A sessions with Amazon scientists, researchers, and industry experts."
+          ]
+        },
+        {
           "title": "Data Analytics & AI Trainee",
-          "company": "@PwC Launchpad 3.0 Program",
+          "company": "@PriceWaterhouse Coopers",
           "dates": "February 2025 - June 2025",
           "bulletPoints": [
-            "Undergoing training in data analytics, AI/ML fundamentals, and real-world problem-solving.",
-            "Hands-on with data pipelines, model development, and business-oriented analytics.",
-            "Collaborating with industry mentors and peers to build scalable, ethical tech solutions."
+            "Completed structured training in data analytics, AI/ML fundamentals, and real-world business problem solving.",
+            "Worked hands-on with data pipelines, data preprocessing, model development, and business-oriented analytics use cases.",
+            "Applied analytical thinking to derive insights from data while focusing on scalability, ethics, and practical impact.",
+            "Collaborated with industry mentors and cross-functional peers on case studies and project-based learning."
           ]
         }
       ]

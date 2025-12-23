@@ -6,7 +6,8 @@ import {
   FaGraduationCap,
   FaUserTie,
   FaChartLine,
-  FaGithubAlt
+  FaGithubAlt,
+  FaAmazon
 } from 'react-icons/fa';
 
 
@@ -85,6 +86,17 @@ const Achievements: React.FC = () => {
     <AchievementsContainer id="achievements">
         <SectionTitle>Achievements</SectionTitle>
         <AchievementsList>
+
+          <AchievementCard>
+            <div className="icon"><FaAmazon /></div>
+            <h3>🚀 Cracked Amazon SDE Internship (6 Months)</h3>
+            <p>
+                Successfully cleared Amazon’s highly competitive selection process and secured a
+                <strong> 6-month Software Development Engineer (SDE) Internship</strong>, demonstrating strong
+                data structures, algorithms, and system design fundamentals.
+            </p>
+        </AchievementCard>
+
         <AchievementCard>
             <div className="icon"><FaTrophy /></div>
             <h3>🏆 Finalist – Next Gen Minds, JAGSoM (2025)</h3>

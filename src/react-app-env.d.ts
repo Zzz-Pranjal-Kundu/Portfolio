@@ -4,3 +4,7 @@ declare module "*.jpeg";
 declare module "*.jpg";
 declare module "*.gif";
 declare module "*.webp";
+declare module '*.pdf' {
+  const src: string;
+  export default src;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaHome, FaUser, FaCode, FaFileAlt, FaBars, FaTimes, FaGithub, FaStar, FaCodeBranch } from 'react-icons/fa';
 import './header.scss';
+import ResumePDF from '../../assets/resume/PranjalResume.pdf';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,13 @@ const Header: React.FC = () => {
           <FaCode />
           Projects
         </a>
-        <a href="#resume" className="nav-link" onClick={(e) => handleClick(e, 'resume')}>
+        <a
+          href={ResumePDF}
+          className="nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => setIsOpen(false)}
+        >
           <FaFileAlt />
           Resume
         </a>
